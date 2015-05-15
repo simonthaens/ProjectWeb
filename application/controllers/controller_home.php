@@ -26,6 +26,8 @@ class Controller_home extends CI_Controller {
 		$this->load->view('template/view_navigation');
 		$this->load->view('template/view_header', $data);
 		$this->load->view('view_home');
+		$this->load->view('template/view_contact');
+		
 		$this->load->view('template/view_footer');
 	}
 }
