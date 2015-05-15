@@ -1,15 +1,19 @@
 
+
 .fb-page{
 	
 	float: right;
 }
+.error{
+	display: inline-block;
+}
 form{
 	float:left;
-	width: 100%;
-}
-input{
 	width: 50%;
+
+	
 }
+
 
 footer{
 	background-color: black;
