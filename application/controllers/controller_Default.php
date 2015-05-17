@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Controller_home extends CI_Controller {
+class Controller_Default extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,14 +20,13 @@ class Controller_home extends CI_Controller {
 	 */
 	
 	
-	public function index()
+	public function home()
 	{
-		$data['title'] = 'HET WERKT';
-		$this->load->view('template/view_navigation');
-		$this->load->view('template/view_header', $data);
+		//$data['title'] = 'HET WERKT';
+		$this->load->view('home');
+		/*$this->load->view('template/view_header', $data);
 		$this->load->view('view_home');
-		$this->load->view('template/view_contact');
-		
-		$this->load->view('template/view_footer');
+		$this->load->view('template/view_contact');		
+		$this->load->view('template/view_footer');*/
 	}
 }
