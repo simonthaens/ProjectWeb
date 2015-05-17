@@ -28,6 +28,21 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!--Script voor facebook page plugin -->
+    <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/nl_BE/sdk.js#xfbml=1&version=v2.3";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+
+    
+
 </head>
 
 <body>
@@ -164,6 +179,103 @@
 
     </div>
     <!-- /.content-section-a -->
+
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">About TEDx</h2>
+                    <p class="lead">In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion and connection in a small group.</p>
+                    <p class="lead">These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized.</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="assets/pictures/logo.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Contact us</h2>
+                    
+
+                        <form method="post" action='' novalidate>
+
+                            <div class="form-group" >
+                                <label for="inputName">Name</label>
+                                <!--<input type="text" class="form-control" id="inputName" placeholder="Enter name" name="name" value='<?php echo htmlentities($inputName)?>'>-->
+                                <input type="text" class="form-control" id="inputName" placeholder="Enter name" name="name" value=''>
+                                <!--<span class='error'> <?php echo $nameError ?> </span>-->
+                                 
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputEmail">Email</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Enter email" name="email" >
+                                <!--<span class='error'> <?php echo $emailError ?> </span>-->
+                                
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputMessage">Your message</label>
+                                <textarea class="form-control" id="inputMessage" placeholder="Enter message" name="message" ></textarea>
+                               <!--<span class='error'> <?php echo $messageError ?> </span>-->
+
+                            </div>
+                            
+                            <button type="submit" id="submit" value="submit" name="submitted" class="btn btn-default btn-lg">Send</button>
+                        </form>
+                </div>
+
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    
+                    <div class="fb-page" data-href="https://www.facebook.com/TEDxUHasselt?fref=ts" data-hide-cover="true" data-show-facepile="true" data-show-posts="false">
+                        <div class="fb-xfbml-parse-ignore">
+                            <blockquote cite="https://www.facebook.com/TEDxUHasselt?fref=ts">
+                            <a href="https://www.facebook.com/TEDxUHasselt?fref=ts">TEDxUHasselt</a>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+
+
+
 
 	<a  name="contact"></a>
     <div class="banner">
