@@ -4,7 +4,17 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 p  a, a:link{
-color:#FF4747;	
+color:#d9534f;	
+}
+
+#eventslink{
+	color:white;
+	margin:0.5em;
+	width:45%;
+}
+#eventsimg{
+	padding-top:0.5em;
+	padding-bottom: 0.5em;
 }
 
 #netwerkdiv{
@@ -16,7 +26,7 @@ i{
 }
 
 a:hover, a:active, a:visited{
-	color:#FF4747;	
+	color:#c9302c;	
 	text-decoration:underline;
 }
 
