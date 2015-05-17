@@ -205,7 +205,7 @@
                     <div class="clearfix"></div>
                     <h2 class="secion-heading">Contact</h2>
                     <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
-                </div>t
+                </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="assets/pictures/dog.png" alt="">
                 </div>
