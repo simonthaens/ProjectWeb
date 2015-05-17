@@ -1101,12 +1101,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #ff3333;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #ff3333;
   text-decoration: underline;
 }
 a:focus {
@@ -3471,14 +3471,14 @@ tbody.collapse.in {
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  color: #262626;
+  color: #ff3333;
   text-decoration: none;
   background-color: #f5f5f5;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  color: #fff;
+  color: #ff3333;
   text-decoration: none;
   background-color: #337ab7;
   outline: 0;
@@ -4083,6 +4083,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-collapse {
+	color:#ff3333;
   padding-right: 15px;
   padding-left: 15px;
   overflow-x: visible;
