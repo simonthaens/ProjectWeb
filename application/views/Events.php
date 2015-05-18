@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,6 +36,58 @@
 </head>
 
 <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">TOP<span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#2016">TEDxPXL 2016</a>
+                    </li>
+                    <li>
+                        <a href="#news">News</a>
+                    </li>                             
+                    <li>
+                        <a href="#events">Events</a>
+                    </li>
+                    <li>
+                        <a href="#partners">Partners</a>
+                    </li>
+                     <li>
+                        <a href="#about">About</a>
+                    </li>        
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="">Forum</a>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left" role="search">
+        			<div class="form-group">
+         			 <input name="Query" type="text" class="form-control" placeholder="Search...">
+        			</div>
+        			<button name="Search" type="submit" class="btn btn-default" onclick="doSearch(this.form.query);"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+      			</form>    			
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
     <!-- Header -->
     <a></a>
     <div class="intro-header">
@@ -179,7 +232,7 @@
                     <h2 class="section-heading">About</h2>
                     <p class="lead">TEDxUHasselt is an independently organized TED conference where speakers from around the world share cutting-edge ideas. During the breaks, attendees connect with each other through various interactive activities.</p>
                 	<p class = "lead">TEDxUHasselt was founded in 2011 by three Hasselt University students and has remained a student-driven organization ever since. Meet our team members!</p>
-                	<a href="<?php echo base_url(); ?>application/views/about.php" class="btn btn-danger" id="eventslink">More info</a>
+                	<a href="" class="btn btn-danger" id="eventslink">More info</a>
                 	<a href="" class="btn btn-danger" id="eventslink">Become a member</a>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
@@ -238,3 +291,87 @@
         </div>
         <!-- /.container -->
     </div>
+
+	<!--<a  name="news"></a>-->
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-11">
+                    <h2><span style="color:#d9534f;">Keep tuned:</span></h2>
+                </div>
+                <div id="netwerkdiv" class="col-lg-6 col-lg-offset-9">
+                    <ul class="list-inline banner-social-buttons">
+                         <li>
+                             <a href="https://www.facebook.com/TEDxPXL" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                         </li>
+                         <li>
+                             <a href="https://twitter.com/tedx" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                         </li>                         
+                         <li>
+                             <a href="https://www.linkedin.com/company/tedxuhasselt" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                         </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#2016">TEDxPXL 2016</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#news">News</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#events">Events</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#partners">Partners</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                        	<a href="">Forum</a>
+                   		</li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; TEDxPXL 2016. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    
+    <script> window.jQuery || document.write('\x3Cscript src="js/jquery.js">\x3C\/script>');</script>
+
+
+    <!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
