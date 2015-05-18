@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
     <!-- Custom CSS -->
-    <link href="assets/css/landing-page.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/landing-page.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -36,45 +36,6 @@
 </head>
 
 <body>
-
-    
-
-
-    <!-- Header -->
-    <a></a>
-    <div class="intro-header">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1><span style="color:red;">TEDx</span>PXL</h1>
-                        <h3><span style="color:red;">x</span> = independently organized TED event</h3>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://www.facebook.com/TEDxPXL" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/tedx" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>                         
-                            <li>
-                                <a href="https://www.linkedin.com/company/tedxuhasselt" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.intro-header -->
-
-    <!-- Page Content -->
-
-	<!--<a  name="2016"></a>-->
     <div class="content-section-a" id="2016">
         <div class="container">
             <div class="row">

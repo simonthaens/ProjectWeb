@@ -179,7 +179,7 @@
                     <h2 class="section-heading">About</h2>
                     <p class="lead">TEDxUHasselt is an independently organized TED conference where speakers from around the world share cutting-edge ideas. During the breaks, attendees connect with each other through various interactive activities.</p>
                 	<p class = "lead">TEDxUHasselt was founded in 2011 by three Hasselt University students and has remained a student-driven organization ever since. Meet our team members!</p>
-                	<a href="<?php echo base_url(); ?>application/views/about.php" class="btn btn-danger" id="eventslink">More info</a>
+                	<a href="<?php echo base_url(); ?>default_controller/about" class="btn btn-danger" id="eventslink">More info</a>
                 	<a href="" class="btn btn-danger" id="eventslink">Become a member</a>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">

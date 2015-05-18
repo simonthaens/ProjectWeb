@@ -15,22 +15,22 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#2016">TEDxPXL 2016</a>
+                        <a href="<?php echo base_url(); ?>home#2016">TEDxPXL 2016</a>
                     </li>
                     <li>
-                        <a href="#news">News</a>
+                        <a href="<?php echo base_url(); ?>home#news">News</a>
                     </li>                             
                     <li>
-                        <a href="#events">Events</a>
+                        <a href="<?php echo base_url(); ?>home#events">Events</a>
                     </li>
                     <li>
-                        <a href="#partners">Partners</a>
+                        <a href="<?php echo base_url(); ?>home#partners">Partners</a>
                     </li>
                      <li>
-                        <a href="#about">About</a>
+                        <a href="<?php echo base_url(); ?>home#about">About</a>
                     </li>        
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="<?php echo base_url(); ?>home#contact">Contact</a>
                     </li>
                     <li>
                         <a href="">Forum</a>
