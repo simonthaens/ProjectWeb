@@ -77,10 +77,10 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">TEDxPXL 2016</h2>
-                    <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+                    <p class="lead">TEDxUHasselt presents to you the theme for TEDxUHasselt 2016: CHALLENGE ACCEPTED! <br><br>Taking UHasselt by storm in March 2016.<br><br>More details coming soon... Subscribe to our newsletter, or follow us on our social channels, to get the latest updates! </p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="assets/pictures/ipad.png" alt="">
+                    <img class="img-responsive" src="assets/pictures/tedxbanner.jpg" alt="" style="padding-top: 7em;">
                 </div>
             </div>
         </div>
