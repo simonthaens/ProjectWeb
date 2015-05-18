@@ -240,8 +240,33 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="secion-heading">Contact</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+                    <h2 class="secion-heading">Contact us</h2>
+                    <form method="post" action='' novalidate>
+
+                            <div class="form-group" >
+                                <label for="inputName">Name</label>
+                                <!--<input type="text" class="form-control" id="inputName" placeholder="Enter name" name="name" value='<?php echo htmlentities($inputName)?>'>-->
+                                <input type="text" class="form-control" id="inputName" placeholder="Enter name" name="name" value=''>
+                                <!--<span class='error'> <?php echo $nameError ?> </span>-->
+                                 
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputEmail">Email</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Enter email" name="email" >
+                                <!--<span class='error'> <?php echo $emailError ?> </span>-->
+                                
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputMessage">Your message</label>
+                                <textarea class="form-control" id="inputMessage" placeholder="Enter message" name="message" ></textarea>
+                               <!--<span class='error'> <?php echo $messageError ?> </span>-->
+
+                            </div>
+                            
+                            <button type="submit" id="submit" value="submit" name="submitted" class="btn btn-default btn-lg">Send</button>
+                        </form>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="assets/pictures/dog.png" alt="">
