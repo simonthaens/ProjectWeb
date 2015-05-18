@@ -114,16 +114,17 @@
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Events</h2>
                     <div class="row">
-						<a href="" class="btn btn-danger" id="eventslink">TEDxUHASSELT 2016</a>
-						<a href="" class="btn btn-danger" id="eventslink">TEDxUHASSELTSALON 2013</a>
+						<a href="<?php echo base_url(); ?>default_controller/events#2016" class="btn btn-danger" id="eventslink">TEDxUHASSELT 2016</a>
+						<a href="<?php echo base_url(); ?>default_controller/events#2015" class="btn btn-danger" id="eventslink">TEDxUHASSELTLIVE 2015</a>
+						
 					</div>
 					<div class="row">
-  						<a href="" class="btn btn-danger" id="eventslink">TEDxUHASSELTLIVE 2015</a>
-  						<a href="" class="btn btn-danger" id="eventslink">TEDxUHASSELT 2012</a>
+  						<a href="<?php echo base_url(); ?>default_controller/events#2014" class="btn btn-danger" id="eventslink">TEDxUHASSELT 2014</a>
+						<a href="<?php echo base_url(); ?>default_controller/events#2013" class="btn btn-danger" id="eventslink">TEDxUHASSELTSALON 2013</a>
 					</div>
 					<div class="row">
-  						<a href="" class="btn btn-danger" id="eventslink">TEDxUHASSELT 2014</a>
-  						<a href="" class="btn btn-danger" id="eventslink">TEDxUHASSELT 2011</a>
+  						<a href="<?php echo base_url(); ?>default_controller/events#2011" class="btn btn-danger" id="eventslink">TEDxUHASSELT 2011</a>					
+  						<a href="<?php echo base_url(); ?>default_controller/events#2012" class="btn btn-danger" id="eventslink">TEDxUHASSELT 2012</a>
 					</div>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">

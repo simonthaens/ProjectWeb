@@ -36,6 +36,24 @@ class default_Controller extends CI_Controller{
 		$this->load->view('template/banner');
 		$this->load->view('template/footer');
 	}	
+	
+		public function events($page = 'events')
+	{
+		$this->load->helper('url');
+		
+		if(!file_exists('application/views/'.$page.'.php')){
+			show_404();
+		}
+		
+		$this->load->view('template/nav');
+		$this->load->view($page);
+		$this->load->view('template/banner');
+		$this->load->view('template/footer');
+	}
+	
+	
+	
+	
 }
 
 ?>
