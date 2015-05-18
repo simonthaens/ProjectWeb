@@ -228,8 +228,7 @@
 
                             </div>
                             
-                            <button type="submit" id="submit" value="submit" name="submitted" class="btn btn-default btn-lg">
-                                <span class="glyphicon glyphicon-envelope"></span> Send</button>
+                            <button type="submit" id="submit" value="submit" name="submitted" class="btn btn-default btn-lg">Send</button>
                         </form>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
