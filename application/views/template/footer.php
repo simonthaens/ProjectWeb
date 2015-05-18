@@ -5,31 +5,31 @@
                 <div class="col-lg-12">
                     <ul class="list-inline">
                         <li>
-                            <a href="<?php echo base_url(); ?>home#">Home</a>
+                            <a href="<?php echo base_url(); ?>#">Home</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="<?php echo base_url(); ?>home#2016">TEDxPXL 2016</a>
+                            <a href="<?php echo base_url(); ?>#2016">TEDxPXL 2016</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="<?php echo base_url(); ?>home#news">News</a>
+                            <a href="<?php echo base_url(); ?>#news">News</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="<?php echo base_url(); ?>home#events">Events</a>
+                            <a href="<?php echo base_url(); ?>#events">Events</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="<?php echo base_url(); ?>home#partners">Partners</a>
+                            <a href="<?php echo base_url(); ?>#partners">Partners</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="<?php echo base_url(); ?>home#about">About</a>
+                            <a href="<?php echo base_url(); ?>#about">About</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="<?php echo base_url(); ?>home#contact">Contact</a>
+                            <a href="<?php echo base_url(); ?>#contact">Contact</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
