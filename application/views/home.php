@@ -48,7 +48,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">TOP</a>
+                <a class="navbar-brand topnav" href="#">TOP<span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -71,7 +71,16 @@
                     <li>
                         <a href="#contact">Contact</a>
                     </li>
+                    <li>
+                        <a href="">Forum</a>
+                    </li>
                 </ul>
+                <form class="navbar-form navbar-left" role="search">
+        			<div class="form-group">
+         			 <input name="Query" type="text" class="form-control" placeholder="Search...">
+        			</div>
+        			<button name="Search" type="submit" class="btn btn-default" onclick="doSearch(this.form.query);"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+      			</form>    			
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -223,6 +232,8 @@
                     <h2 class="section-heading">About</h2>
                     <p class="lead">TEDxUHasselt is an independently organized TED conference where speakers from around the world share cutting-edge ideas. During the breaks, attendees connect with each other through various interactive activities.</p>
                 	<p class = "lead">TEDxUHasselt was founded in 2011 by three Hasselt University students and has remained a student-driven organization ever since. Meet our team members!</p>
+                	<a href="" class="btn btn-danger" id="eventslink">More info</a>
+                	<a href="" class="btn btn-danger" id="eventslink">Become a member</a>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="326" width="444">
@@ -340,6 +351,10 @@
                         <li>
                             <a href="#contact">Contact</a>
                         </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                        	<a href="">Forum</a>
+                   		</li>
                     </ul>
                     <p class="copyright text-muted small">Copyright &copy; TEDxPXL 2016. All Rights Reserved</p>
                 </div>
