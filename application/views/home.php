@@ -10,6 +10,11 @@
     <meta name="author" content="">
 
     <title>TEDxPXL</title>
+
+    <!--Icon -->
+    <link rel="shortcut icon" href="assets/pictures/favicon.ico" type="image/vnd.microsoft.icon" />
+
+
     
     <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
