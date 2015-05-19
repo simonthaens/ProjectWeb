@@ -107,17 +107,26 @@
 									<div class="item active">
 										<img src="<?php echo base_url(); ?>assets/pictures/carsouselBack.png" data-holder-rendered="true" style="width:100%; height:30%; border-radius: 25px;">
 										<div class="carousel-caption">
-   											<h3>...</h3>
-											<p>
-												...
-											</p>
-											</div>
+   											<h2 class="section-heading">News1</h2>
+   											<h4>15 Feb 2015</h4>
+											<p>evenement info blablalba evenement info blablalba evenement info blablalba evenement info blablalba</p>
+										</div>
 									</div>
 									<div class="item">
 										<img src="<?php echo base_url(); ?>assets/pictures/carsouselBack.png" data-holder-rendered="true" style="width:100%; height:30%; border-radius: 25px;">
+										<div class="carousel-caption">
+   											<h2 class="section-heading">News2</h2>
+   											<h4>15 Feb 2015</h4>
+											<p>evenement info blablalba evenement info blablalba evenement info blablalba evenement info blablalba</p>
+										</div>
 									</div>
 									<div class="item">
 										<img src="<?php echo base_url(); ?>assets/pictures/carsouselBack.png" data-holder-rendered="true" style="width:100%; height:30%; border-radius: 25px;">
+										<div class="carousel-caption">
+   											<h2 class="section-heading">News3</h2>
+   											<h4>15 Feb 2015</h4>
+											<p>evenement info blablalba evenement info blablalba evenement info blablalba evenement info blablalba</p>
+										</div>
 									</div>
 								</div>
 								<a  id="slidehover" class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev" style="border-radius: 25px;"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
