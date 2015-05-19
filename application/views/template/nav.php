@@ -39,12 +39,26 @@
                         <a href="">Login</a>
                     </li>
                 </ul>
-                <form class="navbar-form navbar-left" role="search">
-        			<div class="form-group">
-         			 <input name="Query" type="text" class="form-control" placeholder="Search...">
-        			</div>
-        			<button name="Search" type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-      			</form>    			
+				
+				<div class="searchBox navbar-left">
+				<script>
+					(function() {
+						var cx = '009021633720020366928:lgwic0uogsg';
+						var gcse = document.createElement('script');
+						gcse.type = 'text/javascript';
+						gcse.async = true;
+						gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+																'//cse.google.com/cse.js?cx=' + cx;
+						var s = document.getElementsByTagName('script')[0];
+						s.parentNode.insertBefore(gcse, s);
+					})();
+				</script>
+				
+				<gcse:searchbox-only style="width:10%;"></gcse:searchbox-only>   		
+				</div>
+        		    			
+				 
+				
             </div>
             <!-- /.navbar-collapse -->
         </div>

@@ -51,6 +51,9 @@ h6 {
     font-weight: 700;
 }
 
+.searchBox{
+width: 40%;
+}
 .topnav {
     font-size: 14px; 
 }
