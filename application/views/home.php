@@ -12,9 +12,7 @@
 
     <!--Icon -->
     <link rel="shortcut icon" href= <?php echo base_url() . "assets/pictures/favicon.ico"?> type="image/vnd.microsoft.icon" />
-
-
-    
+   
     <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
@@ -24,19 +22,10 @@
     <!-- Custom Fonts -->
     <link href=<?php echo base_url() . "assets/css/font-awesome.min.css"?> rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body>	
 	    <!-- Header -->
-    <a></a>
     <div class="intro-header">
         <div class="container">
 
@@ -63,13 +52,10 @@
 
         </div>
         <!-- /.container -->
-
     </div>
     <!-- /.intro-header -->
 
     <!-- Page Content -->
-
-	<!--<a  name="2016"></a>-->
     <div class="content-section-a" id="2016">
         <div class="container">
             <div class="row">
@@ -162,8 +148,8 @@
 						<a href="<?php echo base_url(); ?>default_controller/events#2013" class="btn btn-danger" id="eventslink">TEDxUHASSELTSALON 2013</a>
 					</div>
 					<div class="row">
-  						<a href="<?php echo base_url(); ?>default_controller/events#2011" class="btn btn-danger" id="eventslink">TEDxUHASSELT 2011</a>					
   						<a href="<?php echo base_url(); ?>default_controller/events#2012" class="btn btn-danger" id="eventslink">TEDxUHASSELT 2012</a>
+  						<a href="<?php echo base_url(); ?>default_controller/events#2011" class="btn btn-danger" id="eventslink">TEDxUHASSELT 2011</a>					
 					</div>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
