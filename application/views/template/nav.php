@@ -63,15 +63,7 @@
                     <h1>Reveal Modal Goodness</h1>
                     <p>This is a default modal in all its glory, but any of the styles here can easily be changed in the CSS.</p>
                     <a class="close-reveal-modal">&#215;</a>
-                </div>
-
-
-                <form class="navbar-form navbar-left" role="search">
-        			<div class="form-group">
-         			 <input name="Query" type="text" class="form-control" placeholder="Search...">
-        			</div>
-        			<button name="Search" type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-      			</form>    			
+                </div>	
 
             </div>
             <!-- /.navbar-collapse -->
