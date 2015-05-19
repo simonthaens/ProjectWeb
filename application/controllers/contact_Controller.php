@@ -45,11 +45,30 @@ class Contact_controller extends CI_Controller {
             //get the form data
             $name = $this->input->post('name');
             $from_email = $this->input->post('email');
-            $subject = $this->input->post('subject');
+            $subject = "Contact form TEDx";
             $message = $this->input->post('message');
 
             //set to_email id to which you want to receive mails
             $to_email = 'joshua.gielen@gmail.com';
+
+
+            $this->load->library('email');
+
+            $this->email->from($from_email, $name);
+            $this->email->to($to_email);
+            $this->email->subject($subject);
+            $this->email->message($message); 
+
+
+
+
+
+
+
+
+
+
+            /*
 
             //configure email settings
             $config['protocol'] = 'smtp';
@@ -68,7 +87,9 @@ class Contact_controller extends CI_Controller {
             $this->email->from($from_email, $name);
             $this->email->to($to_email);
             $this->email->subject($subject);
-            $this->email->message($message);
+            $this->email->message($message); */
+
+
             if ($this->email->send())
             {
                 // mail sent

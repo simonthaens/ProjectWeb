@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang=”urdu”>
+  <head>
+<!– styles –>
+<link rel=”stylesheet/less” type=”text/css” href=”themes/less/bootstrap.less”>
+<script src=”themes/js/less/less.js” type=”text/javascript”></script>
+</head>
+<div class=”offset6 span6 left-align loginArea”>
+<a href=”#login” role=”button” data-toggle=”modal”>
+<span class=”btn btn-mini btn-danger”> Login  </span>
+</a>
+</div>
+//This Block of Code will be shown in Popup.
+<!– Login Block –>
+<div id=”login” class=”modal hide fade in” tabindex=”-1″ role=”dialog” aria-labelledby=”login” aria-hidden=”false” >
+  <div class=”modal-header”>
+<button type=”button” class=”close” data-dismiss=”modal” aria-hidden=”true”>×</button>
+<h3>Sell Anythings : Login Block</h3>
+  </div>
+  <div class=”modal-body”>
+<form class=”form-horizontal loginFrm”>
+ <div class=”control-group”>
+<input type=”text” id=”inputEmail” placeholder=”Email”>
+ </div>
+ <div class=”control-group”>
+<input type=”password” id=”inputPassword” placeholder=”Password”>
+ </div>
+ <div class=”control-group”>
+<label class=”checkbox”>
+<input type=”checkbox” name=”remember”> Remember me
+</label>
+ </div>
+</form>
+<button type=”submit” class=”btn btn-success”>Sign in</button>
+<button class=”btn” data-dismiss=”modal” aria-hidden=”true”>Close</button>
+  </div>
+</div>
