@@ -36,17 +36,17 @@
 </head>
 
 <body>
-    <div class="content-section-a" id="tedxpxl">
+    <div class="content-section-b" id="tedxpxl">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">About TEDxUHasselt</h2>
-                    <p class="lead">TEDxUHasselt is an independently organized TED conference where speakers from around the world share cutting-edge ideas. During the breaks, attendees connect with each other through various interactive activities.<br><br>TEDxUHasselt was founded in 2011 by three Hasselt University students and has remained a student-driven organization ever since. !!!!!Meet our team members!</p>
+                    <p class="lead">TEDxUHasselt is an independently organized TED conference where speakers from around the world share cutting-edge ideas. During the breaks, attendees connect with each other through various interactive activities.<br><br>TEDxUHasselt was founded in 2011 by three Hasselt University students and has remained a student-driven organization ever since.<a href="<?php echo base_url(); ?>default_controller/about#team">Meet our team members!</a></p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="assets/pictures/ipad.png" alt="">
+                    <img class="img-responsive" src="<?php echo base_url(); ?>assets/pictures/aboutpic.jpg" alt="" style="padding-top:4em;">
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@
     </div>
     <!-- /.content-section-a -->
 
-    <div class="content-section-b" id="tedx">
+    <div class="content-section-a" id="tedx">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
@@ -79,7 +79,7 @@
     </div>
     <!-- /.content-section-b -->
 
-    <div class="content-section-a" id="ted">
+    <div class="content-section-b" id="ted">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
@@ -88,8 +88,8 @@
                     <h2 class="section-heading">About TED</h2>
                     <p class="lead">TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in California 25 years ago, TED has grown to support those world-changing ideas with multiple initiatives. The annual TED Conference invites the world's leading thinkers and doers to speak for 18 minutes. Their talks are then made available, free, at TED.com. TED speakers have included Bill Gates, Al Gore, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck, Ngozi Okonjo-Iweala, Isabel Allende and UK Prime Minister Gordon Brown. The annual TED Conference takes place in Long Beach, California, with simulcast in Palm Springs; TEDGlobal is held each year in Oxford, UK.</p>					
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <p class="lead">TED's media initiatives include TED.com, where new TEDTalks are posted daily, and the Open Translation Project, which provides subtitles and interactive transcripts as well as the ability for any TEDTalk to be translated by volunteers worldwide. TED has established the annual TED Prize, where exceptional individuals with a wish to change the world are given the opportunity to put their wishes into action; TEDx, which offers individuals or groups a way to organize independent, TED-like events around the world; and the TEDFellows program, helping world-changing innovators from around the globe to become part of the TED community and, with its help, amplify the impact of their remarkable projects and activities. Follow TED on Twitter at twitter.com/TEDTalks, or on Facebook at facebook.com/TED.</p>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6" style="padding-top: 5em;">
+                    <p class="lead">TED's media initiatives include TED.com, where new TEDTalks are posted daily, and the Open Translation Project, which provides subtitles and interactive transcripts as well as the ability for any TEDTalk to be translated by volunteers worldwide. TED has established the annual TED Prize, where exceptional individuals with a wish to change the world are given the opportunity to put their wishes into action; TEDx, which offers individuals or groups a way to organize independent, TED-like events around the world; and the TEDFellows program, helping world-changing innovators from around the globe to become part of the TED community and, with its help, amplify the impact of their remarkable projects and activities. Follow TED on Twitter at <a href="https://twitter.com/TEDTalks" target="_blank">twitter.com/TEDTalks</a>, or on Facebook at <a href="https://www.facebook.com/TED" target="_blank">facebook.com/TED</a>.</p>
                 </div>
             </div>
         </div>
@@ -97,7 +97,7 @@
     </div>
     <!-- /.content-section-a -->
 
-	<div class="content-section-b" id="team">
+	<div class="content-section-a" id="team">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
@@ -145,52 +145,65 @@
         <!-- /.container -->
     </div>
     
-        <div class="content-section-a" id="join">
+        <div class="content-section-b" id="join">
         <div class="container">
            <form class="form-horizontal" role="form">
-    			<div class="form-group">
-      				<label class="control-label col-sm-2" for="email">Email:</label>
-     			 	<div class="col-sm-10">
-        				<input type="email" class="form-control" id="email" placeholder="Enter email">
-      			 	</div>
-    			</div>
-    			<div class="form-group">
-      			<label class="control-label col-sm-2" for="pwd">Password:</label>
-      			<div class="col-sm-10">          
-        		<input type="password" class="form-control" id="pwd" placeholder="Enter password">
-     			</div>
-    			</div>
-    			<div class="form-group">        
-      			<div class="col-sm-offset-2 col-sm-10">
-        		<div class="checkbox">
-          		<label><input type="checkbox"> Remember me</label>
-        		</div>
-      			</div>
-    			</div>
-    			<div class="form-group">        
-      			<div class="col-sm-offset-2 col-sm-10">
-        		<button type="submit" class="btn btn-default">Submit</button>
-      			</div>
-    			</div>
-  				</form>
+           	<div class="col-lg-5 col-sm-6">
+                    	<hr class="section-heading-spacer">
+						<div class="clearfix"></div>
+						<h2 class="section-heading">Join the team</h2>
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="name">Name:</label>
+							<div class="col-sm-8">
+								<input type="text" class="form-control" id="name" placeholder="Enter name">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="firstName">First name:</label>
+							<div class="col-sm-8">
+								<input type="text" class="form-control" id="firstName" placeholder="Enter first name">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="email">Email:</label>
+							<div class="col-sm-8">
+								<input type="email" class="form-control" id="email" placeholder="Enter email">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="school">University/School:</label>
+							<div class="col-sm-8">
+								<input type="text" class="form-control" id="school" placeholder="Enter University/School">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="study">Field of study:</label>
+							<div class="col-sm-8">
+								<input type="text" class="form-control" id="study" placeholder="Enter field of study">
+							</div>
+						</div>	
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<button type="submit" class="btn btn-danger" id="eventslink">Submit</button>
+							</div>
+						</div>					
+                	</div>
+                	<div class="col-lg-5 col-lg-offset-2 col-sm-6" style="padding-top: 5em;">
+                    	<div class="form-group">
+						<label class="control-label col-sm-12" for="motivation">What motivates you to join the TEDxUHasselt Team:</label>
+							<div class="col-sm-12">
+								<textarea id="motivation" cols="60" rows="5" class="form-control"></textarea>
+							</div>
+						</div>		
+						<div class="form-group">
+						<label class="control-label col-sm-12" for="help">In what way do you want to help the TEDxUHasselt Team:</label>
+							<div class="col-sm-12">
+								<textarea id="help" cols="60" rows="5" class="form-control"></textarea>
+							</div>
+						</div>		   	
+                	</div>
+           	
+  			</form>
         </div>
         <!-- /.container -->
     </div>
-    
-		
-    
-
-     <div class="row">
-            	<form>
-            		<div class="col-lg-5 col-sm-6">
-                    	<hr class="section-heading-spacer">
-                    	<div class="clearfix"></div>
-                    	<h2 class="section-heading">Join the team</h2>
-                    	<label for="name">Name:</label><input type="text" name="name" size="50" maxlength="128"/>
-                    
-                	</div>
-                	<div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    
-                	</div>
-            	</form>           
-            </div>
