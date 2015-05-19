@@ -33,7 +33,6 @@
                         <a href="<?php echo base_url(); ?>#contact">Contact</a>
                     </li>
                     <li>
-                        <a href="">Forum</a>
                     </li>
                 </ul>
                 <form class="navbar-form navbar-left" role="search">
