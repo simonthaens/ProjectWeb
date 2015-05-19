@@ -12,9 +12,7 @@
 
     <!--Icon -->
     <link rel="shortcut icon" href= <?php echo base_url() . "assets/pictures/favicon.ico"?> type="image/vnd.microsoft.icon" />
-
-
-    
+   
     <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
@@ -25,33 +23,15 @@
     <link href=<?php echo base_url() . "assets/css/font-awesome.min.css"?> rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- CSS & JQuery for popup login and register pane -->
+    <link rel="stylesheet" href="assets/css/reveal.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.reveal.js"></script>
 
 </head>
 
-<body>
-	<!--fb plugin-->
-	 <div id="fb-root"></div>
-		<script>
-			( function(d, s, id) {
-					var js,
-					    fjs = d.getElementsByTagName(s)[0];
-					if (d.getElementById(id))
-						return;
-					js = d.createElement(s);
-					js.id = id;
-					js.src = "//connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v2.3";
-					fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));
-		</script>
-	
-    <!-- Header -->
-    <a></a>
+<body>	
+	    <!-- Header -->
     <div class="intro-header">
         <div class="container">
 
@@ -78,13 +58,10 @@
 
         </div>
         <!-- /.container -->
-
     </div>
     <!-- /.intro-header -->
 
     <!-- Page Content -->
-
-	<!--<a  name="2016"></a>-->
     <div class="content-section-a" id="2016">
         <div class="container">
             <div class="row">
@@ -151,8 +128,8 @@
 						
                     <a href="<?php echo base_url(); ?>default_controller/about#join" class="btn btn-danger" id="eventslink">Add event</a>
                 </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src=<?php echo base_url() ."assets/pictures/dog.png"?> alt="">
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6" style="padding-top: 3em;">
+					<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=2&amp;hl=en&amp;bgcolor=%23ffffff&amp;src=oahe6uk797kj25olgo4a4fr9l8%40group.calendar.google.com&amp;color=%23A32929&amp;ctz=Europe%2FBrussels" style=" border-width:0 " width="600" height="400" frameborder="0" scrolling="no"></iframe>
                 </div>
             </div>
         </div>
@@ -177,8 +154,8 @@
 						<a href="<?php echo base_url(); ?>default_controller/events#2013" class="btn btn-danger" id="eventslink">TEDxUHASSELTSALON 2013</a>
 					</div>
 					<div class="row">
-  						<a href="<?php echo base_url(); ?>default_controller/events#2011" class="btn btn-danger" id="eventslink">TEDxUHASSELT 2011</a>					
   						<a href="<?php echo base_url(); ?>default_controller/events#2012" class="btn btn-danger" id="eventslink">TEDxUHASSELT 2012</a>
+  						<a href="<?php echo base_url(); ?>default_controller/events#2011" class="btn btn-danger" id="eventslink">TEDxUHASSELT 2011</a>					
 					</div>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
