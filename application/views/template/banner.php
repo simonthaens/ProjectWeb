@@ -3,16 +3,8 @@
             <div class="row">
             	<div class="col-lg-3">
                     <h2><span style="color:#d9534f;">Twitter:</span></h2>
-                    <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v2.3";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+                   
 
-					<div class="fb-page" data-href="https://www.facebook.com/TEDxUHasselt" data-width="300" data-height="300" data-hide-cover="false" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/TEDxUHasselt"><a href="https://www.facebook.com/TEDxUHasselt">TEDxUHasselt</a></blockquote></div></div>
              
                 </div>                
                 <div id="netwerkdiv" class="col-lg-6">
@@ -31,6 +23,7 @@
                 </div>
                 <div class="col-lg-3">
                     <h2><span style="color:#d9534f;">Facebook:</span></h2>
+                    <div class="fb-page" data-href="https://www.facebook.com/TEDxUHasselt" data-width="300" data-height="200" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/TEDxUHasselt"><a href="https://www.facebook.com/TEDxUHasselt">TEDxUHasselt</a></blockquote></div></div>
              
                 </div>
             </div>
