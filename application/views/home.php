@@ -122,8 +122,8 @@
 						
                     <a href="<?php echo base_url(); ?>default_controller/about#join" class="btn btn-danger" id="eventslink">Add event</a>
                 </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src=<?php echo base_url() ."assets/pictures/dog.png"?> alt="">
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6" style="padding-top: 3em;">
+					<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=2&amp;hl=en&amp;bgcolor=%23ffffff&amp;src=oahe6uk797kj25olgo4a4fr9l8%40group.calendar.google.com&amp;color=%23A32929&amp;ctz=Europe%2FBrussels" style=" border-width:0 " width="600" height="400" frameborder="0" scrolling="no"></iframe>
                 </div>
             </div>
         </div>
