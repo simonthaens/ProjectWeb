@@ -36,7 +36,7 @@
 </head>
 
 <body>
-    <div class="content-section-a" id="2016">
+    <div class="content-section-a" id="tedxpxl">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
@@ -54,7 +54,7 @@
     </div>
     <!-- /.content-section-a -->
 
-    <div class="content-section-b" id="2015">
+    <div class="content-section-b" id="tedx">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
@@ -79,7 +79,7 @@
     </div>
     <!-- /.content-section-b -->
 
-    <div class="content-section-a" id="2014">
+    <div class="content-section-a" id="ted">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
@@ -97,46 +97,82 @@
     </div>
     <!-- /.content-section-a -->
 
-	<div class="content-section-b" id="2013">
+	<div class="content-section-b" id="team">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>              
                     <h2 class="section-heading">Team</h2>
-                    
+                    <figure class="img-responsive col-lg-4" style="margin-left: 2em; margin-right: 2em;">
+  					<img img src="<?php echo base_url(); ?>assets/pictures/team1.jpg" alt="">
+  					<figcaption>Martijn Peters<br>lead organiser</figcaption>
+					</figure>
+					<figure class="img-responsive col-lg-4" style="margin-left: 2em; margin-right: 2em;">
+  					<img img src="<?php echo base_url(); ?>assets/pictures/team2.jpg" alt="">
+  					<figcaption>Yves Ruland<br>lead orgniser</figcaption>
+					</figure>
+					<figure class="img-responsive col-lg-4" style="margin-left: 2em; margin-right: 2em;">
+  					<img img src="<?php echo base_url(); ?>assets/pictures/team3.jpg" alt="">
+  					<figcaption>Boris Mrak<br>team member</figcaption>
+					</figure>	
+					<figure class="img-responsive col-lg-4" style="margin-left: 2em; margin-right: 2em;">
+  					<img img  src="<?php echo base_url(); ?>assets/pictures/team4.jpg" alt="">
+  					<figcaption>emiel ectors<br>team member</figcaption>
+					</figure>				
                 </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-            
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6" style="padding-top: 10em;">           		
+					<figure class="img-responsive col-lg-4" style="margin-left: 2em; margin-right: 2em;">
+  					<img img src="<?php echo base_url(); ?>assets/pictures/team5.jpg" alt="">
+  					<figcaption>Frank Bax<br>team member</figcaption>
+					</figure>
+					<figure class="img-responsive col-lg-4" style="margin-left: 2em; margin-right: 2em;">
+  					<img img src="<?php echo base_url(); ?>assets/pictures/team6.jpg" alt="">
+  					<figcaption>Hannelore Bove<br>team member</figcaption>
+					</figure>
+					<figure class="img-responsive col-lg-4" style="margin-left: 2em; margin-right: 2em;">
+  					<img img  src="<?php echo base_url(); ?>assets/pictures/team7.jpg" alt="">
+  					<figcaption>Joachim Laun<br>team member</figcaption>
+					</figure>
+					<figure class="img-responsive col-lg-4" style="margin-left: 2em; margin-right: 2em;">
+  					<img img src="<?php echo base_url(); ?>assets/pictures/team8.jpg" alt="">
+  					<figcaption>Jonas Lieben<br>team member</figcaption>
+					</figure>
+							
                 </div>
             </div>
         </div>
         <!-- /.container -->
     </div>
     
-        <div class="content-section-a" id="2012">
+        <div class="content-section-a" id="join">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">TEDxUHASSELT 2012</h2>
-                    <p class="lead">TEDxUHasselt is an independently organized TED conference where speakers from around the world share cutting-edge ideas. During the breaks, attendees connect with each other through various interactive activities.</p>
-                	<p class = "lead">TEDxUHasselt was founded in 2011 by three Hasselt University students and has remained a student-driven organization ever since. Meet our team members!</p>
-                	<a href="" class="btn btn-danger" id="eventslink">More info</a>
-                	<a href="" class="btn btn-danger" id="eventslink">Become a member</a>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="326" width="444">
-                    	<param name="bgcolor" value="#ffffff">
-                    	<param name="flashvars" value="vu=http://video.ted.com/talks/embed/TEDShortRemix_2008-embed_high.flv&amp;su=http://images.ted.com/images/ted/tedindex/embed-posters/TEDShortRemix.2008-embed_thumbnail.jpg&amp;vw=432&amp;vh=240&amp;ap=0">
-                    	<param name="src" value="http://video.ted.com/assets/player/swf/EmbedPlayer.swf">
-                    	<param name="wmode" value="transparent">
-                    	<param name="allowfullscreen" value="true">
-                    	<embed allowfullscreen="true" bgcolor="#ffffff" flashvars="vu=http://video.ted.com/talks/embed/TEDShortRemix_2008-embed_high.flv&amp;su=http://images.ted.com/images/ted/tedindex/embed-posters/TEDShortRemix.2008-embed_thumbnail.jpg&amp;vw=432&amp;vh=240&amp;ap=0" height="326" src="http://video.ted.com/assets/player/swf/EmbedPlayer.swf" title="Adobe Flash Player" type="application/x-shockwave-flash" width="444" wmode="transparent">                    		
-                    	</object>
-                </div>
-            </div>
+           <form class="form-horizontal" role="form">
+    			<div class="form-group">
+      				<label class="control-label col-sm-2" for="email">Email:</label>
+     			 	<div class="col-sm-10">
+        				<input type="email" class="form-control" id="email" placeholder="Enter email">
+      			 	</div>
+    			</div>
+    			<div class="form-group">
+      			<label class="control-label col-sm-2" for="pwd">Password:</label>
+      			<div class="col-sm-10">          
+        		<input type="password" class="form-control" id="pwd" placeholder="Enter password">
+     			</div>
+    			</div>
+    			<div class="form-group">        
+      			<div class="col-sm-offset-2 col-sm-10">
+        		<div class="checkbox">
+          		<label><input type="checkbox"> Remember me</label>
+        		</div>
+      			</div>
+    			</div>
+    			<div class="form-group">        
+      			<div class="col-sm-offset-2 col-sm-10">
+        		<button type="submit" class="btn btn-default">Submit</button>
+      			</div>
+    			</div>
+  				</form>
         </div>
         <!-- /.container -->
     </div>
@@ -144,4 +180,17 @@
 		
     
 
-    
+     <div class="row">
+            	<form>
+            		<div class="col-lg-5 col-sm-6">
+                    	<hr class="section-heading-spacer">
+                    	<div class="clearfix"></div>
+                    	<h2 class="section-heading">Join the team</h2>
+                    	<label for="name">Name:</label><input type="text" name="name" size="50" maxlength="128"/>
+                    
+                	</div>
+                	<div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    
+                	</div>
+            	</form>           
+            </div>
