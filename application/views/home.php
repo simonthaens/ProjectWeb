@@ -22,6 +22,12 @@
     <!-- Custom Fonts -->
     <link href=<?php echo base_url() . "assets/css/font-awesome.min.css"?> rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- CSS & JQuery for popup login and register pane -->
+    <link rel="stylesheet" href="assets/css/reveal.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.reveal.js"></script>
+
 </head>
 
 <body>	

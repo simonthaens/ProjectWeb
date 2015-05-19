@@ -34,9 +34,20 @@
                         <a href="<?php echo base_url(); ?>forum">Forum</a>
                     </li>
                     <li>
-                        <a href="">Login</a>
+                        <a href="#" class="big-link" data-reveal-id="myModal">Login</a>
+                    </li>
+                    <li>
+                        <a href="#" class="big-link" data-reveal-id="myModal">Register</a>
                     </li>
                 </ul>
+
+                <div id="myModal" class="reveal-modal">
+                    <h1>Reveal Modal Goodness</h1>
+                    <p>This is a default modal in all its glory, but any of the styles here can easily be changed in the CSS.</p>
+                    <a class="close-reveal-modal">&#215;</a>
+                </div>
+
+
                 <form class="navbar-form navbar-left" role="search">
         			<div class="form-group">
          			 <input name="Query" type="text" class="form-control" placeholder="Search...">
