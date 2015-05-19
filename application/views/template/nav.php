@@ -40,7 +40,7 @@
                         <a href="#" class="big-link" data-reveal-id="myModal">Register</a>
                     </li>
                 </ul>
-<<<<<<< HEAD
+
 				
 				<div class="searchBox navbar-left">
 				<script>
@@ -59,10 +59,6 @@
 				<gcse:searchbox-only style="width:10%;"></gcse:searchbox-only>   		
 				</div>
         		    			
-				 
-				
-=======
-
                 <div id="myModal" class="reveal-modal">
                     <h1>Reveal Modal Goodness</h1>
                     <p>This is a default modal in all its glory, but any of the styles here can easily be changed in the CSS.</p>
@@ -76,7 +72,7 @@
         			</div>
         			<button name="Search" type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
       			</form>    			
->>>>>>> origin/master
+
             </div>
             <!-- /.navbar-collapse -->
         </div>
