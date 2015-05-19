@@ -44,7 +44,8 @@
                 </div>
 
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src=<?php echo base_url() ."assets/pictures/dog.png"?> alt="">
+                    <?php echo $map['js']; ?>
+                    <?php echo $map['html'];?>
                 </div>
             </div>
         </div>

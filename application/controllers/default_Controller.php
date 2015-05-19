@@ -9,11 +9,22 @@ class default_Controller extends CI_Controller{
 			show_404();
 		}
 		
+		//google maps
+		$this->load->library('googlemaps');
+		$config['center'] = 'UHasselt Diepenbeek';
+		$config['zoom'] = '15';
+		$this->googlemaps->initialize($config);
+		$marker = array();
+		$marker['position'] = 'UHasselt Diepenbeek';
+		$this->googlemaps->add_marker($marker);
+		$data['map'] = $this->googlemaps->create_map();
+
+		//load pages
 		$this->load->view('template/nav');
-			$this->load->view($page);
-			$this->load->view('contact');
-			$this->load->view('template/banner');
-			$this->load->view('template/footer');
+		$this->load->view($page);
+		$this->load->view('contact',$data);
+		$this->load->view('template/banner');
+		$this->load->view('template/footer');
 		
 		
 		//$data['title'] = 'HET WERKT';
