@@ -33,6 +33,7 @@
                         <a href="<?php echo base_url(); ?>#contact">Contact</a>
                     </li>
                     <li>
+                        <a href="<?php echo base_url(); ?>forum">Forum</a>
                     </li>
                     <li>
                         <a href="">Login</a>
