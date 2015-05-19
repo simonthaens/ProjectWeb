@@ -10,9 +10,10 @@ class default_Controller extends CI_Controller{
 		}
 		
 		$this->load->view('template/nav');
-		$this->load->view($page);
-		$this->load->view('template/banner');
-		$this->load->view('template/footer');
+			$this->load->view($page);
+			$this->load->view('contact');
+			$this->load->view('template/banner');
+			$this->load->view('template/footer');
 		
 		
 		//$data['title'] = 'HET WERKT';

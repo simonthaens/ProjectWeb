@@ -11,7 +11,7 @@
     <title>TEDxPXL</title>
 
     <!--Icon -->
-    <link rel="shortcut icon" href="assets/pictures/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="shortcut icon" href= <?php echo base_url() . "assets/pictures/favicon.ico"?> type="image/vnd.microsoft.icon" />
 
 
     
@@ -19,10 +19,10 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
     <!-- Custom CSS -->
-    <link href="assets/css/landing-page.css" rel="stylesheet">
+    <link href=<?php echo base_url() ."assets/css/landing-page.css"?> rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href=<?php echo base_url() . "assets/css/font-awesome.min.css"?> rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -80,7 +80,7 @@
                     <p class="lead">TEDxUHasselt presents to you the theme for TEDxUHasselt 2016: CHALLENGE ACCEPTED! <br><br>Taking UHasselt by storm in March 2016.<br><br>More details coming soon... Subscribe to our newsletter, or follow us on our social channels, to get the latest updates! </p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="assets/pictures/tedxbanner.jpg" alt="" style="padding-top: 7em;">
+                    <img class="img-responsive" src=<?php echo base_url() ."assets/pictures/tedxbanner.jpg"?> alt="" style="padding-top: 7em;">
                 </div>
             </div>
         </div>
@@ -98,7 +98,7 @@
                     <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="assets/pictures/dog.png" alt="">
+                    <img class="img-responsive" src=<?php echo base_url() ."assets/pictures/dog.png"?> alt="">
                 </div>
             </div>
         </div>
@@ -128,8 +128,8 @@
 					</div>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" id="eventsimg" src="assets/pictures/events1.jpg" alt="">
-                    <img class="img-responsive" id="eventsimg" src="assets/pictures/events2.png" alt="">
+                    <img class="img-responsive" id="eventsimg" src=<?php echo base_url() ."assets/pictures/events1.jpg"?> alt="">
+                    <img class="img-responsive" id="eventsimg" src=<?php echo base_url() ."assets/pictures/events2.png"?> alt="">
                 </div>
             </div>
         </div>
@@ -144,27 +144,27 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>              
                     <h2 class="section-heading">Friend of TEDxPXL:</h2>
-                    <a href="" ><img class="img-responsive col-lg-6" id="eventsimg" src="assets/pictures/friends1.jpg" alt=""></a>
-                    <a href="" ><img class="img-responsive col-lg-6" id="eventsimg" src="assets/pictures/friends2.jpg" alt=""></a>
-                    <a href="" ><img class="img-responsive col-lg-6" id="eventsimg" src="assets/pictures/friends3.png" alt=""></a>
-                    <a href="" ><img class="img-responsive col-lg-6" id="eventsimg" src="assets/pictures/friends4.jpg" alt=""></a>     
+                    <a href="" ><img class="img-responsive col-lg-6" id="eventsimg" src=<?php echo base_url() ."assets/pictures/friends1.jpg"?> alt=""></a>
+                    <a href="" ><img class="img-responsive col-lg-6" id="eventsimg" src=<?php echo base_url() ."assets/pictures/friends2.jpg"?> alt=""></a>
+                    <a href="" ><img class="img-responsive col-lg-6" id="eventsimg" src=<?php echo base_url() ."assets/pictures/friends3.png"?> alt=""></a>
+                    <a href="" ><img class="img-responsive col-lg-6" id="eventsimg" src=<?php echo base_url() ."assets/pictures/friends4.jpg"?> alt=""></a>     
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                 	<hr class="section-heading-spacer">
                     <div class="clearfix"></div> 
                 	<h2 class="section-heading">Partners</h2>
-                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src="assets/pictures/partners1.jpg" alt=""></a>
-                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src="assets/pictures/partners2.jpg" alt=""></a>
-                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src="assets/pictures/partners3.png" alt=""></a>
-                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src="assets/pictures/partners4.png" alt=""></a>  
-                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src="assets/pictures/partners5.jpg" alt=""></a>
-                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src="assets/pictures/partners6.jpg" alt=""></a>
-                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src="assets/pictures/partners7.png" alt=""></a>
-                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src="assets/pictures/partners8.png" alt=""></a> 
-                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src="assets/pictures/partners9.jpg" alt=""></a>
-                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src="assets/pictures/partners10.jpg" alt=""></a>
-                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src="assets/pictures/partners11.jpg" alt=""></a>
-                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src="assets/pictures/partners12.png" alt=""></a>   
+                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src=<?php echo base_url() ."assets/pictures/partners1.jpg"?> alt=""></a>
+                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src=<?php echo base_url() ."assets/pictures/partners2.jpg"?> alt=""></a>
+                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src=<?php echo base_url() ."assets/pictures/partners3.png"?> alt=""></a>
+                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src=<?php echo base_url() ."assets/pictures/partners4.png"?> alt=""></a>  
+                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src=<?php echo base_url() ."assets/pictures/partners5.jpg"?> alt=""></a>
+                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src=<?php echo base_url() ."assets/pictures/partners6.jpg"?> alt=""></a>
+                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src=<?php echo base_url() ."assets/pictures/partners7.png"?> alt=""></a>
+                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src=<?php echo base_url() ."assets/pictures/partners8.png"?> alt=""></a> 
+                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src=<?php echo base_url() ."assets/pictures/partners9.jpg"?> alt=""></a>
+                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src=<?php echo base_url() ."assets/pictures/partners10.jpg"?> alt=""></a>
+                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src=<?php echo base_url() ."assets/pictures/partners11.jpg"?> alt=""></a>
+                    <a href="" ><img class="img-responsive col-lg-4" id="eventsimg" src=<?php echo base_url() ."assets/pictures/partners12.png"?> alt=""></a>   
                 </div>
             </div>
         </div>
@@ -198,44 +198,4 @@
         <!-- /.container -->
     </div>
     
-		<div class="content-section-b" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="secion-heading">Contact us</h2>
-                    <form method="post" action='' novalidate>
-
-                            <div class="form-group" >
-                                <label for="inputName">Name</label>
-                                <!--<input type="text" class="form-control" id="inputName" placeholder="Enter name" name="name" value='<?php echo htmlentities($inputName)?>'>-->
-                                <input type="text" class="form-control" id="inputName" placeholder="Enter name" name="name" value=''>
-                                <!--<span class='error'> <?php echo $nameError ?> </span>-->
-                                 
-                            </div>
-
-                            <div class="form-group">
-                                <label for="inputEmail">Email</label>
-                                <input type="email" class="form-control" id="inputEmail" placeholder="Enter email" name="email" >
-                                <!--<span class='error'> <?php echo $emailError ?> </span>-->
-                                
-                            </div>
-
-                            <div class="form-group">
-                                <label for="inputMessage">Your message</label>
-                                <textarea class="form-control" id="inputMessage" placeholder="Enter message" name="message" ></textarea>
-                               <!--<span class='error'> <?php echo $messageError ?> </span>-->
-
-                            </div>
-                            
-                            <button type="submit" id="submit" value="submit" name="submitted" class="btn btn-default btn-lg">Send</button>
-                        </form>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="assets/pictures/dog.png" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- /.container -->
-    </div>
+		
