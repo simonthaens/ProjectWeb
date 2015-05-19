@@ -32,7 +32,7 @@
                        <span class='help-block'> <?php echo form_error('message') ?> </span>
                     </div>
                             
-                    <button type="submit" id="submit" value="submit" name="submitted" class="btn btn-default btn-lg">Send</button>
+                    <button type="submit" id="submit" value="submit" name="submitted" class="btn btn-danger" style="width:30%; height:5%;">Send</button>
 
                     <?php
                         echo form_close();
