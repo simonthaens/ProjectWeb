@@ -147,7 +147,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;    
-    background: url(../pictures/tedxbanner.jpg) no-repeat center center;
+    /*background: url(../pictures/tedxbanner.jpg) no-repeat center center;*/
     background-color: #f8f8f8;
     background-size:contain;
 }
