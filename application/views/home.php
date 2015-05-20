@@ -12,6 +12,7 @@
 
     <!--Icon -->
     <link rel="shortcut icon" href= <?php echo base_url() . "assets/pictures/favicon.ico"?> type="image/vnd.microsoft.icon" />
+
    
     <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -125,8 +126,8 @@
 								<a id="slidehover" class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next" style="border-radius: 25px;"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
 							</div>
 						</div>
-						
-                    <a href="<?php echo base_url(); ?>default_controller/about#join" class="btn btn-danger" id="eventslink">Add event</a>
+					<a href="#" class="btn btn-danger"  id="eventslink" data-reveal-id="addEventForm">Add Event</a>
+                   
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6" style="padding-top: 3em;">
 
@@ -134,6 +135,60 @@
             </div>
         </div>
         <!-- /.container -->
+        <div id="addEventForm" class="reveal-modal">
+                    <h1>Add new event</h1>
+                    
+                        <div class="form-group" >
+                            <label for="eventName">Name of event</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" name="eventName" value=''>
+                        </div>
+
+                        <div class="form-group" >
+                            <label for="eventDate">Date</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter date" name="eventDate" value=''>
+                        </div>
+
+                        <div class="form-group" >
+                            <label for="eventTime">Time</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter time" name="eventTime" value=''>
+                        </div>
+
+                        <div class="form-group" >
+                            <label for="eventZip">Zip code</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter zip code" name="eventZip" value=''>
+                        </div>
+
+                        <div class="form-group" >
+                            <label for="eventCity">City</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter city" name="eventCity" value=''>
+                        </div>
+
+                        <div class="form-group" >
+                            <label for="eventAddress">Address</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter address" name="eventAddress" value=''>
+                        </div>
+
+                        <div class="form-group" >
+                            <label for="eventDescription">Description</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter description" name="eventDescription" value=''>
+                        </div>
+                        
+                        <button type="submit" id="submit" value="submit" name="submitted" class="btn btn-danger" style="width:30%; height:5%;">Send</button>
+
+
+
+                        
+                              
+                  
+
+
+
+
+
+
+
+                    <a class="close-reveal-modal">&#215;</a>
+                </div>
     </div>
     <!-- /.content-section-b -->
 
