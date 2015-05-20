@@ -5,78 +5,34 @@ class Contact_controller extends CI_Controller {
 public function __construct()
     {
         parent::__construct();
-        $this->load->helper(array('form','url'));
-        $this->load->library(array('session', 'form_validation', 'email'));
+       
     }
 
     function index()
     {
-        //set validation rules
-        $this->form_validation->set_rules('name', 'Name', 'trim|required|callback_alpha_space_only');
-        $this->form_validation->set_rules('email', 'Emaid ID', 'trim|required|valid_email');
-        $this->form_validation->set_rules('message', 'Message', 'trim|required');
-
-
-        //run validation on form input
-        if ($this->form_validation->run() == FALSE)
-        {
-
-            //validation fails
-        
-            //google maps
-            $this->load->library('googlemaps');
-            $config['center'] = 'UHasselt Diepenbeek';
-            $config['zoom'] = '15';
-            $this->googlemaps->initialize($config);
-            $marker = array();
-            $marker['position'] = 'UHasselt Diepenbeek';
-            $this->googlemaps->add_marker($marker);
-            $data['map'] = $this->googlemaps->create_map();
-
-            $this->load->view('template/nav');
-            $this->load->view($page='home');
-            $this->load->view('contact',$data);
-            $this->load->view('template/banner');
-            $this->load->view('template/footer');
-        }
-        else
-        {
-            //get the form data
-            $name = $this->input->post('name');
-            $from_email = $this->input->post('email');
-            $subject = "Message from contact form TEDx";
-            $message = $this->input->post('message');
-
-            //set to_email id to which you want to receive mails
-            $to_email = 'joshua.gielen@gmail.com';
-
-            //configure email settings
-            $config = Array(
+        $config = Array(
                 'protocol' => 'smtp',
                 'smtp_host' => 'ssl://smtp.googlemail.com',
                 'smtp_port' => 465,
                 'smpt_user' => 'joshua.gielen@gmail.com',
                 'smpt_pass' => 'AD7abyrf'
-            );
+        );
 
-            //load library
-            $this->load->library('email',$config); 
-            $this->email->set_newline("\r\n");
 
-            //send mail
-            $this->email->from('joshua.gielen@gmail.com', 'Joshua Gielen');
-            $this->email->to($to_email);
-            $this->email->subject($subject);
-            $this->email->message($message);
 
-            if($this->email->send()){
-                redirect(base_url());
-            }else{
-                show_error($this->email->print_debugger());
-            }
+        $this->load->library('email',$config); 
+        $this->email->set_newline("\r\n");
+
+        $this->email->from('joshua.gielen@gmail.com', 'Joshua Gielen');
+        $this->email->to('joshua.gielen@gmail.com');
+        $this->email->subject('test');
+        $this->email->message('this is a test, hope its working');
+
+        if($this->email->send()){
+            echo "email successfully send";
+        }else{
+            show_error($this->email->print_debugger());
         }
-
-        
 /*
 
         //set validation rules
