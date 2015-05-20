@@ -28,7 +28,14 @@
             </div>
             <div class="row">
             	<div class="col-lg-3">
-                	<div class="fb-page" data-href="https://www.facebook.com/TEDxUHasselt" data-width="300" data-height="200" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/TEDxUHasselt"><a href="https://www.facebook.com/TEDxUHasselt">TEDxUHasselt</a></blockquote></div></div>                    
+                	<a class="twitter-timeline" href="https://twitter.com/tedx/favorites" width="300" height="200" data-widget-id="595952552681807872">Favorite Tweets by @TEDx</a><br />
+<script>// <![CDATA[
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+// ]]></script>
+
+
+
+
                 </div>
                 <div class="col-lg-6" style="padding-top: 4em;">
                     <ul class="list-inline banner-social-buttons">

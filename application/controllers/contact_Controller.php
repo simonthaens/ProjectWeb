@@ -89,15 +89,17 @@ class Contact_controller extends CI_Controller {
             $this->email->subject($subject);
             $this->email->message($message); */
 
-
+            print "sent email before";
             if ($this->email->send())
             {
+                print "sent email true";
                 // mail sent
                 $this->session->set_flashdata('msg','<div class="alert alert-success text-center">Your mail has been sent successfully!</div>');
                 redirect('contactform/index');
             }
             else
             {
+                print "sent email false";
                 //error
                 $this->session->set_flashdata('msg','<div class="alert alert-danger text-center">There is error in sending mail! Please try again later</div>');
                 redirect('contactform/index');
