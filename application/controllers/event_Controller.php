@@ -1,10 +1,10 @@
 <?php 
 
 class event_Controller{
-          public $dbUrl = "mysql:host=http://159.253.7.3:3306/;dbname=simontz93_ProjectWeb;charset=latin1', 'simontz93_proj', 'project";  		   
+          public $dbUrl = "mysql:host=159.253.7.3;port=3306;dbname=simontz93_ProjectWeb', 'simontz93_proj', 'djacroQp";  		   
 	
 	function addEvent(){
-		if (isset($_POST["addEvent"]) && $_SERVER[“REQUEST_METHOD”] == “POST”) {
+		if (isset($_POST["addEvent"])) {
 				$name = test_input($_POST["nameEvent"]);
 				$date = test_input($_POST["dateEvent"]);
 				$time = test_input($_POST["timeEvent"]);
@@ -16,13 +16,13 @@ class event_Controller{
 				try {
 					$db = new PDO($this->dbUrl);
 					$stmt = $db->prepare("INSERT INTO Events (name, date, time, zip, city, address, description)VALUES(:name,:date,:time,:zip,:city,:address,:description)");
-					$stmt->bindParam(':name', $name, PDO::PARAM_STR);	
-					$stmt->bindParam(':date', $date, PDO::PARAM_STR);
-					$stmt->bindParam(':time', $time, PDO::PARAM_STR);
-					$stmt->bindParam(':zip', $zip, PDO::PARAM_INT);
-					$stmt->bindParam(':city', $city, PDO::PARAM_STR);
-					$stmt->bindParam(':address', $address, PDO::PARAM_STR);
-					$stmt->bindParam(':description', $description, PDO::PARAM_STR);
+					$stmt->bindValue(':name', $name, PDO::PARAM_STR);	
+					$stmt->bindValue(':date', $date, PDO::PARAM_STR);
+					$stmt->bindValue(':time', $time, PDO::PARAM_STR);
+					$stmt->bindValue(':zip', $zip, PDO::PARAM_INT);
+					$stmt->bindValue(':city', $city, PDO::PARAM_STR);
+					$stmt->bindValue(':address', $address, PDO::PARAM_STR);
+					$stmt->bindValue(':description', $description, PDO::PARAM_STR);
 					$stmt->execute();
 				} catch (PDOException $ex) {
 					echo "<p>FOUT: " . $ex -> getMessage() . "</p>";
