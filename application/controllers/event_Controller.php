@@ -1,7 +1,7 @@
 <?php 
 
-class event_Controller{
-          public $dbUrl = "mysql:host=159.253.7.3;port=3306;dbname=simontz93_ProjectWeb', 'simontz93_proj', 'djacroQp";  		   
+class Event_Controller{
+          public $dbUrl = "'mysql:host=159.253.7.3;port=3306;dbname=simontz93_ProjectWeb', 'simontz93_proj', 'djacroQp'";  		   
 	
 	function addEvent(){
 		if (isset($_POST["addEvent"])) {

@@ -1,6 +1,6 @@
 <?php 
 
-class Contact_controller extends CI_Controller {
+class Contact_Controller extends CI_Controller {
                
 public function __construct()
     {

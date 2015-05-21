@@ -1,6 +1,6 @@
 <?php
 
-class default_Controller extends CI_Controller{	
+class Default_Controller extends CI_Controller{	
 	public function home($page = 'home')
 	{
 		$this->load->helper('url');
