@@ -107,8 +107,8 @@
 										</div>
 									</div>
 									<?php 
-										$eventController = new event_Controller();
-										$eventController->getEvents();
+										//$eventController = new event_Controller();
+										//$eventController->getEvents();
 									?>
 								</div>
 								<a  id="slidehover" class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev" style="border-radius: 25px;"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
