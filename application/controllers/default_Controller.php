@@ -4,6 +4,7 @@ class default_Controller extends CI_Controller{
 	public function home($page = 'home')
 	{
 		$this->load->helper('url');
+		$this->load->library('../controllers/event_Controller');	
 		
 		if(!file_exists('application/views/'.$page.'.php')){
 			show_404();
@@ -18,6 +19,7 @@ class default_Controller extends CI_Controller{
 		$marker['position'] = 'UHasselt Diepenbeek';
 		$this->googlemaps->add_marker($marker);
 		$data['map'] = $this->googlemaps->create_map();
+		
 
 		//load pages
 		$this->load->view('template/nav');

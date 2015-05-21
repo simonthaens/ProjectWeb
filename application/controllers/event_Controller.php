@@ -1,7 +1,7 @@
 <?php 
 
-class event_Controller extends CI_Controller {
-          public $dbUrl = "mysql:host=http://159.253.7.3:3306/;dbname=Events;charset=UTF8', 'simontz93_proj', 'project";   
+class event_Controller{
+          public $dbUrl = "mysql:host=http://159.253.7.3:3306/;dbname=simontz93_ProjectWeb;charset=latin1', 'simontz93_proj', 'project";  		   
 	
 	function addEvent(){
 		if (isset($_POST["addEvent"]) && $_SERVER[“REQUEST_METHOD”] == “POST”) {
@@ -35,7 +35,7 @@ class event_Controller extends CI_Controller {
 			$db = new PDO($this->dbUrl);
 			$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 			//selecteer 
-			$stmt = $db->query('SELECT naam, email, bericht, datum FROM GastenboekORDER BY boekID DESC');
+			$stmt = $db->query('SELECT * FROM Events ORDER BY date DESC');
 			$rijen = $stmt->fetchAll(PDO::FETCH_NUM);
 
 			foreach($rijen as $rij) {
@@ -77,13 +77,6 @@ class event_Controller extends CI_Controller {
 		$data = htmlspecialchars($data);
 		return $data;
 	}
-	
-
-
-
-
-
-
 
 }
 ?>

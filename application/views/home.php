@@ -91,11 +91,11 @@
                    	
   					<div class="bs-example" data-example-id="simple-carousel">
 							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-								<ol class="carousel-indicators">
+								<!--<ol class="carousel-indicators">
 									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 									<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
 									<li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
-								</ol>
+								</ol>-->
 								<div class="carousel-inner" role="listbox">
 									<div class="item active">
 										<img src="<?php echo base_url(); ?>assets/pictures/carsouselBack.png" data-holder-rendered="true" style="width:100%; height:30%; border-radius: 25px;">
@@ -107,8 +107,8 @@
 										</div>
 									</div>
 									<?php 
-										$events = new event_Controller();
-										echo $events->getEvents();
+										$eventController = new event_Controller();
+										$eventController->getEvents();
 									?>
 								</div>
 								<a  id="slidehover" class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev" style="border-radius: 25px;"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
