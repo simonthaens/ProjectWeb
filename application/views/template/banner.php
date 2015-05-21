@@ -12,6 +12,12 @@
 					fjs.parentNode.insertBefore(js, fjs);
 				}(document, 'script', 'facebook-jssdk'));
 		</script>
+
+<!--twiiter plugin-->		
+		<script>// <![CDATA[
+			!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+  // ]]></script>
+		
 		
 <div class="banner">
         <div class="container">
@@ -29,13 +35,6 @@
             <div class="row">
             	<div class="col-lg-3">
                 	<a class="twitter-timeline" href="https://twitter.com/tedx/favorites" width="300" height="200" data-widget-id="595952552681807872">Favorite Tweets by @TEDx</a><br />
-<script>// <![CDATA[
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-// ]]></script>
-
-
-
-
                 </div>
                 <div class="col-lg-6" style="padding-top: 4em;">
                     <ul class="list-inline banner-social-buttons">

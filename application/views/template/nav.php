@@ -40,30 +40,13 @@
                         <a href="#" class="big-link" data-reveal-id="myModal">Register</a>
                     </li>
                 </ul>
-
 				
-				<div class="searchBox navbar-left">
-				<script>
-					(function() {
-						var cx = '009021633720020366928:lgwic0uogsg';
-						var gcse = document.createElement('script');
-						gcse.type = 'text/javascript';
-						gcse.async = true;
-						gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-																'//cse.google.com/cse.js?cx=' + cx;
-						var s = document.getElementsByTagName('script')[0];
-						s.parentNode.insertBefore(gcse, s);
-					})();
-				</script>
-				
-				<gcse:searchbox-only style="width:10%;"></gcse:searchbox-only>   		
-				</div>
-        		    			
-                <div id="myModal" class="reveal-modal">
-                    <h1>Reveal Modal Goodness</h1>
-                    <p>This is a default modal in all its glory, but any of the styles here can easily be changed in the CSS.</p>
-                    <a class="close-reveal-modal">&#215;</a>
-                </div>	
+				<form class="navbar-form navbar-left" role="search">
+        			<div class="form-group">
+         			 <input name="Query" type="text" class="form-control" placeholder="Search...">
+        			</div>
+        			<button name="Search" type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+      			</form>  
 
             </div>
             <!-- /.navbar-collapse -->

@@ -33,7 +33,7 @@
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                        	<a href="">Forum</a>
+                        	<a href="<?php echo base_url(); ?>forum">Forum</a>
                    		</li>
                     </ul>
                     <p class="copyright text-muted small">Copyright &copy; TEDxPXL 2016. All Rights Reserved</p>
