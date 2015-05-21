@@ -100,27 +100,16 @@
 									<div class="item active">
 										<img src="<?php echo base_url(); ?>assets/pictures/carsouselBack.png" data-holder-rendered="true" style="width:100%; height:30%; border-radius: 25px;">
 										<div class="carousel-caption">
-   											<h2 class="section-heading">News1</h2>
-   											<h4>15 Feb 2015</h4>
+   											<h3 class="section-heading">TEDxPXL 2016</h3>
+   											<h4>15 Feb 2016</h4>
+   											<h5>12:00</h5>
 											<p>evenement info blablalba evenement info blablalba evenement info blablalba evenement info blablalba</p>
 										</div>
 									</div>
-									<div class="item">
-										<img src="<?php echo base_url(); ?>assets/pictures/carsouselBack.png" data-holder-rendered="true" style="width:100%; height:30%; border-radius: 25px;">
-										<div class="carousel-caption">
-   											<h2 class="section-heading">News2</h2>
-   											<h4>15 Feb 2015</h4>
-											<p>evenement info blablalba evenement info blablalba evenement info blablalba evenement info blablalba</p>
-										</div>
-									</div>
-									<div class="item">
-										<img src="<?php echo base_url(); ?>assets/pictures/carsouselBack.png" data-holder-rendered="true" style="width:100%; height:30%; border-radius: 25px;">
-										<div class="carousel-caption">
-   											<h2 class="section-heading">News3</h2>
-   											<h4>15 Feb 2015</h4>
-											<p>evenement info blablalba evenement info blablalba evenement info blablalba evenement info blablalba</p>
-										</div>
-									</div>
+									<?php 
+										$events = new event_Controller();
+										echo $events->getEvents();
+									?>
 								</div>
 								<a  id="slidehover" class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev" style="border-radius: 25px;"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
 								<a id="slidehover" class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next" style="border-radius: 25px;"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
@@ -137,56 +126,44 @@
         <!-- /.container -->
         <div id="addEventForm" class="reveal-modal">
                     <h1>Add new event</h1>
-                    
-                        <div class="form-group" >
+                    <form>
+                    	<div class="form-group" >
                             <label for="eventName">Name of event</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter name" name="eventName" value=''>
+                            <input type="text" class="form-control" placeholder="Enter name" name="eventName" value=''>
                         </div>
 
                         <div class="form-group" >
                             <label for="eventDate">Date</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter date" name="eventDate" value=''>
+                            <input type="date" class="form-control" name="eventDate" value=''>
                         </div>
 
                         <div class="form-group" >
                             <label for="eventTime">Time</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter time" name="eventTime" value=''>
+                            <input type="time" class="form-control" name="eventTime" value=''>
                         </div>
 
                         <div class="form-group" >
                             <label for="eventZip">Zip code</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter zip code" name="eventZip" value=''>
+                            <input type="number" class="form-control" placeholder="Enter zip code" name="eventZip" value=''>
                         </div>
 
                         <div class="form-group" >
                             <label for="eventCity">City</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter city" name="eventCity" value=''>
+                            <input type="text" class="form-control" placeholder="Enter city" name="eventCity" value=''>
                         </div>
 
                         <div class="form-group" >
                             <label for="eventAddress">Address</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter address" name="eventAddress" value=''>
+                            <input type="text" class="form-control" placeholder="Enter address" name="eventAddress" value=''>
                         </div>
 
                         <div class="form-group" >
                             <label for="eventDescription">Description</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter description" name="eventDescription" value=''>
+                            <textArea class="form-control" placeholder="Enter description" rows="5" name="eventDescription" value=''></textArea>
                         </div>
                         
-                        <button type="submit" id="submit" value="submit" name="submitted" class="btn btn-danger" style="width:30%; height:5%;">Send</button>
-
-
-
-                        
-                              
-                  
-
-
-
-
-
-
-
+                        <button type="submit" value="submit" name="addEvent" class="btn btn-danger" style="width:30%; height:5%;">Send</button>
+                    </form>
                     <a class="close-reveal-modal">&#215;</a>
                 </div>
     </div>
