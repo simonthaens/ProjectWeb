@@ -67,10 +67,11 @@ public function __construct()
             $this->email->from('joshua.gielen@gmail.com', 'Joshua Gielen');
             $this->email->to($to_email);
             $this->email->subject($subject);
-            $this->email->message($message);
+            $this->email->message("from: " . $from_email . "\n" . $message);
 
             if($this->email->send()){
-                redirect(base_url());
+                $url = base_url() . "#contact";
+                redirect($url);
             }else{
                 show_error($this->email->print_debugger());
             }
