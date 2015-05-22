@@ -91,11 +91,11 @@
                    	
   					<div class="bs-example" data-example-id="simple-carousel">
 							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-								<!--<ol class="carousel-indicators">
+								<ol class="carousel-indicators">
 									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 									<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
 									<li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
-								</ol>-->
+								</ol>
 								<div class="carousel-inner" role="listbox">
 									<div class="item active">
 										<img src="<?php echo base_url(); ?>assets/pictures/carsouselBack.png" data-holder-rendered="true" style="width:100%; height:30%; border-radius: 25px;">
@@ -106,10 +106,7 @@
 											<p>evenement info blablalba evenement info blablalba evenement info blablalba evenement info blablalba</p>
 										</div>
 									</div>
-									<?php 
-										$eventController = new event_Controller();
-										$eventController->getEvents();
-									?>
+							
 								</div>
 								<a  id="slidehover" class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev" style="border-radius: 25px;"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
 								<a id="slidehover" class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next" style="border-radius: 25px;"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
