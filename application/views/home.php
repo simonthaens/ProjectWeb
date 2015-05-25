@@ -131,6 +131,24 @@
 										?>
 										
 									</div>
+									<div class="item">
+										<img src="<?php echo base_url(); ?>assets/pictures/carsouselBack.png" data-holder-rendered="true" style="width:100%; height:30%; border-radius: 25px;">
+										<div class="carousel-caption">
+   											<h3 class="section-heading">TEDxPXL 2017</h3>
+   											<h4>15 Feb 2017</h4>
+   											<h5>12:00</h5>
+											<p>evenement info blablalba evenement info blablalba evenement info blablalba evenement info blablalba</p>
+										</div>
+									</div>
+									<div class="item">
+										<img src="<?php echo base_url(); ?>assets/pictures/carsouselBack.png" data-holder-rendered="true" style="width:100%; height:30%; border-radius: 25px;">
+										<div class="carousel-caption">
+   											<h3 class="section-heading">TEDxPXL 2018</h3>
+   											<h4>15 Feb 2018</h4>
+   											<h5>12:00</h5>
+											<p>evenement info blablalba evenement info blablalba evenement info blablalba evenement info blablalba</p>
+										</div>
+									</div>
 							
 								</div>
 								<a  id="slidehover" class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev" style="border-radius: 25px;"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
