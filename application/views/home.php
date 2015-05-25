@@ -105,6 +105,12 @@
    											<h5>12:00</h5>
 											<p>evenement info blablalba evenement info blablalba evenement info blablalba evenement info blablalba</p>
 										</div>
+										
+										<?php
+										//$events = new Event_Controller();
+										//$events->getEvents();
+										?>
+										
 									</div>
 							
 								</div>
