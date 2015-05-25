@@ -63,7 +63,7 @@
                     <h2 class="section-heading">About TEDx</h2>
                     <p class="lead">About TEDx, x = independently organized event In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion and connection in a small group. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized. (Subject to certain rules and regulations.)</p>
                 </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6" style="padding-top: 5em;">
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6 hidden-xs" style="padding-top: 5em;">
                     <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="326" width="444">
                     	<param name="bgcolor" value="#ffffff">
                     	<param name="flashvars" value="vu=http://video.ted.com/talks/embed/TEDShortRemix_2008-embed_high.flv&amp;su=http://images.ted.com/images/ted/tedindex/embed-posters/TEDShortRemix.2008-embed_thumbnail.jpg&amp;vw=432&amp;vh=240&amp;ap=0">
