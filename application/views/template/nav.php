@@ -15,7 +15,7 @@
                     <li>
                         <a href="<?php echo base_url(); ?>#2016">TEDxPXL 2016</a>
                     </li>
-                    <li>
+                    <li class="hidden-xs">
                         <a href="<?php echo base_url(); ?>#news">News</a>
                     </li>                             
                     <li>

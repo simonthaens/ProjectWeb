@@ -11,8 +11,8 @@
                         <li>
                             <a href="<?php echo base_url(); ?>#2016">TEDxPXL 2016</a>
                         </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
+                        <li class="footer-menu-divider hidden-xs">&sdot;</li>
+                        <li class="hidden-xs">
                             <a href="<?php echo base_url(); ?>#news">News</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>

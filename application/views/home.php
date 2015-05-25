@@ -100,7 +100,7 @@
     </div>
     <!-- /.content-section-a -->
 
-    <div class="content-section-b" id="news">
+    <div class="content-section-b hidden-xs" id="news">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
