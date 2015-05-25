@@ -1,49 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>TEDxPXL</title>
-
-    <!--Icon -->
-    <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/pictures/favicon.ico" type="image/vnd.microsoft.icon" />
-
-
-    
-    <!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-
-    <!-- Custom CSS -->
-    <link href="<?php echo base_url(); ?>assets/css/landing-page.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="<?php echo base_url(); ?>assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-    <div class="content-section-a" id="2016">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Search Results</h2>
-                    <?php
+<?php
 /*******************************************
 * Sphider Version 1.3.x
 * This program is licensed under the GNU GPL.
@@ -51,7 +6,7 @@
 ********************************************/
 //error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING); 
 error_reporting(E_ALL); 
-$include_dir = "sphider/include"; 
+$include_dir = "./include"; 
 include ("$include_dir/commonfuncs.php");
 //extract(getHttpVars());
 
@@ -75,10 +30,10 @@ if (isset($_GET['adv']))
 	$adv = $_GET['adv'];
 	
 	
-$include_dir = "sphider/include"; 
-$template_dir = "sphider/templates"; 
-$settings_dir = "sphider/settings"; 
-$language_dir = "sphider/languages";
+$include_dir = "./include"; 
+$template_dir = "./templates"; 
+$settings_dir = "./settings"; 
+$language_dir = "./languages";
 
 
 require_once("$settings_dir/database.php");
@@ -89,8 +44,7 @@ require_once("$include_dir/categoryfuncs.php");
 
 include "$settings_dir/conf.php";
 
-include "$template_dir/$template/header.php";
-include "$template_dir/$template/nav.php";
+include "$template_dir/$template/header.html";
 include "$language_dir/$language-language.php";
 
 
@@ -135,7 +89,7 @@ if ($count_level0) {
 
 
 
-require_once("$template_dir/$template/search_form.html");
+require_once("$template_dir/$template/nav.php");
 
 
 function getmicrotime(){
@@ -144,14 +98,6 @@ function getmicrotime(){
     }
 
 
-
-function poweredby () {
-	global $sph_messages;
-    //If you want to remove this, please donate to the project at http://www.sphider.eu/donate.php
-    print $sph_messages['Powered by'];?>  <a href="http://www.sphider.eu/"><img src="sphider-logo.png" border="0" style="vertical-align: middle" alt="Sphider"></a>
-
-    <?php 
-}
 
 
 function saveToLog ($query, $elapsed, $results) {
@@ -187,19 +133,5 @@ switch ($search) {
 	break;
 	}
 
-
+include "$template_dir/$template/footer.html";
 ?>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="<?php echo base_url(); ?>assets/pictures/tedxbanner.jpg" alt="" style="padding-top: 7em;">
-                </div>
-            </div>
-        </div>
-        <!-- /.container -->
-    </div>
-    <!-- /.content-section-a -->
-    </div>
-    
-    
-    
-    

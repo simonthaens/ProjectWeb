@@ -13,25 +13,25 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="<?php echo base_url(); ?>#2016">TEDxPXL 2016</a>
+                        <a href="http://www.baltropical.be/ProjectWeb/#2016">TEDxPXL 2016</a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url(); ?>#news">News</a>
+                        <a href="http://www.baltropical.be/ProjectWeb/#news">News</a>
                     </li>                             
                     <li>
-                        <a href="<?php echo base_url(); ?>#events">Events</a>
+                        <a href="http://www.baltropical.be/ProjectWeb/#events">Events</a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url(); ?>#partners">Partners</a>
+                        <a href="http://www.baltropical.be/ProjectWeb/#partners">Partners</a>
                     </li>
                      <li>
-                        <a href="<?php echo base_url(); ?>#about">About</a>
+                        <a href="http://www.baltropical.be/ProjectWeb/#about">About</a>
                     </li>        
                     <li>
-                        <a href="<?php echo base_url(); ?>#contact">Contact</a>
+                        <a href="http://www.baltropical.be/ProjectWeb/#contact">Contact</a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url(); ?>forum">Forum</a>
+                        <a href="http://www.baltropical.be/ProjectWeb/forum">Forum</a>
                     </li>
                     <li>
                         <a href="#" class="big-link" data-reveal-id="myModal">Login</a>
