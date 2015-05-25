@@ -147,63 +147,95 @@
     
         <div class="content-section-b" id="join">
         <div class="container">
-           <form class="form-horizontal" role="form">
+           
            	<div class="col-lg-5 col-sm-6">
                     	<hr class="section-heading-spacer">
 						<div class="clearfix"></div>
 						<h2 class="section-heading">Join the team</h2>
+                        <?php
+                        $attributes = array("class" => "form-horizontal", "name" => "contactform");
+                        $this->load->helper('form');
+                        echo form_open(base_url() . "join_Controller/index", $attributes); 
+                    ?>
+
 						<div class="form-group">
 							<label class="control-label col-sm-4" for="name">Name:</label>
 							<div class="col-sm-8">
-								<input type="text" class="form-control" id="name" placeholder="Enter name">
+								<input type="text" class="form-control" name="name" id="name" placeholder="Enter name" value='<?php echo set_value('name'); ?>'>
+                                <span class='text-danger'> <?php echo form_error('name') ?> </span>
 							</div>
+                            
 						</div>
+
 						<div class="form-group">
 							<label class="control-label col-sm-4" for="firstName">First name:</label>
 							<div class="col-sm-8">
-								<input type="text" class="form-control" id="firstName" placeholder="Enter first name">
+								<input type="text" class="form-control"  name="firstName" id="firstName" placeholder="Enter first name" value='<?php echo set_value('firstName'); ?>'>
+                                <span class='text-danger'> <?php echo form_error('firstName') ?> </span>
 							</div>
+                            
 						</div>
+
 						<div class="form-group">
 							<label class="control-label col-sm-4" for="email">Email:</label>
 							<div class="col-sm-8">
-								<input type="email" class="form-control" id="email" placeholder="Enter email">
+								<input type="email" class="form-control"  name="email" id="email" placeholder="Enter email" value='<?php echo set_value('email'); ?>'>
+                                <span class='text-danger'> <?php echo form_error('email') ?> </span>
 							</div>
+                            
 						</div>
+
 						<div class="form-group">
 							<label class="control-label col-sm-4" for="school">University/School:</label>
 							<div class="col-sm-8">
-								<input type="text" class="form-control" id="school" placeholder="Enter University/School">
+								<input type="text" class="form-control"  name="school" id="school" placeholder="Enter University/School" value='<?php echo set_value('school'); ?>'>
+                                <span class='text-danger'> <?php echo form_error('school') ?> </span>
 							</div>
+                            
 						</div>
+
 						<div class="form-group">
 							<label class="control-label col-sm-4" for="study">Field of study:</label>
 							<div class="col-sm-8">
-								<input type="text" class="form-control" id="study" placeholder="Enter field of study">
+								<input type="text" class="form-control"  name="study" id="study" placeholder="Enter field of study" value='<?php echo set_value('study'); ?>'>
+                                <span class='text-danger'> <?php echo form_error('study') ?> </span>
 							</div>
+                            
 						</div>	
+
 						<div class="form-group">
 							<div class="col-sm-offset-2 col-sm-10">
-								<button type="submit" class="btn btn-danger" id="eventslink">Submit</button>
+								
+                                <button type="submit" id="submit" value="submit" name="submitted" class="btn btn-danger" style="width:30%; height:5%;">Send</button>
 							</div>
-						</div>					
+						</div>
+
                 	</div>
+
                 	<div class="col-lg-5 col-lg-offset-2 col-sm-6" style="padding-top: 5em;">
+
                     	<div class="form-group">
 						<label class="control-label col-sm-12" for="motivation">What motivates you to join the TEDxUHasselt Team:</label>
 							<div class="col-sm-12">
-								<textarea id="motivation" cols="60" rows="5" class="form-control"></textarea>
+								<textarea id="motivation"  name="motivation" cols="60" rows="5" class="form-control" value='<?php echo set_value('motivation'); ?>'></textarea>
+                                <span class='text-danger'> <?php echo form_error('motivation') ?> </span>
 							</div>
+                            
 						</div>		
+
 						<div class="form-group">
 						<label class="control-label col-sm-12" for="help">In what way do you want to help the TEDxUHasselt Team:</label>
 							<div class="col-sm-12">
-								<textarea id="help" cols="60" rows="5" class="form-control"></textarea>
+								<textarea id="help" cols="60" rows="5"  name="help" class="form-control" value='<?php echo set_value('help'); ?>' ></textarea>
+                                <span class='text-danger'> <?php echo form_error('help') ?> </span>
 							</div>
-						</div>		   	
+                            
+						</div>
+
                 	</div>
+                    <?php echo form_close(); ?>
            	
-  			</form>
+  			
         </div>
         <!-- /.container -->
     </div>

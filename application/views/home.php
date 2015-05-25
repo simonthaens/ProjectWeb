@@ -27,7 +27,26 @@
     <!-- CSS & JQuery for popup login and register pane -->
     <link rel="stylesheet" href="assets/css/reveal.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.reveal.js"></script>
+    <script type="text/javascript" src=<?php echo base_url() ."assets/js/jquery.reveal.js"?> ></script>
+
+
+    <script type="text/javascript">
+<!--
+    function toggle_visibility(slideshow) {
+       var e = document.getElementById(slideshow);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+    
+    
+//-->
+</script>
+
+
+
+
 
 </head>
 
@@ -118,7 +137,7 @@
 								<a id="slidehover" class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next" style="border-radius: 25px;"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
 							</div>
 						</div>
-					<a href="#" class="btn btn-danger"  id="eventslink" data-reveal-id="addEventForm">Add Event</a>
+					<a href="#" class="btn btn-danger"  id="eventslink" data-reveal-id="addEventForm" onclick="toggle_visibility('addEventForm');return false;">Add Event</a>
                    
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6" style="padding-top: 3em;">
@@ -127,7 +146,7 @@
             </div>
         </div>
         <!-- /.container -->
-        <div id="addEventForm" class="reveal-modal">
+        <div id="addEventForm" class="reveal-modal" style="display:none" >
                     <h1>Add new event</h1>
                     <form>
                     	<div class="form-group" >
