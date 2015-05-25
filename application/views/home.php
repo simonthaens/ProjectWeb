@@ -268,7 +268,7 @@
                 	<a href="<?php echo base_url(); ?>Default_Controller/about" class="btn btn-danger" id="eventslink">More info</a>
                 	<a href="<?php echo base_url(); ?>Default_Controller/about#join" class="btn btn-danger" id="eventslink">Join the team!</a>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6 hidden-xs">
                     <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="326" width="444">
                     	<param name="bgcolor" value="#ffffff">
                     	<param name="flashvars" value="vu=http://video.ted.com/talks/embed/TEDShortRemix_2008-embed_high.flv&amp;su=http://images.ted.com/images/ted/tedindex/embed-posters/TEDShortRemix.2008-embed_thumbnail.jpg&amp;vw=432&amp;vh=240&amp;ap=0">

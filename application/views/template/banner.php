@@ -21,7 +21,7 @@
 		
 <div class="banner">
         <div class="container">
-            <div class="row">
+            <div class="row hidden-xs hidden-sm hidden-md">
             	<div class="col-lg-3">
                     <h2><span style="color:#d9534f;">Twitter:</span></h2>        
                 </div>
@@ -36,7 +36,7 @@
             	<div class="col-lg-3">
                 	<a class="twitter-timeline" href="https://twitter.com/tedx/favorites" width="300" height="200" data-widget-id="595952552681807872">Favorite Tweets by @TEDx</a><br />
                 </div>
-                <div class="col-lg-6" style="padding-top: 4em;">
+                <div class="col-lg-6 hidden-xs hidden-sm hidden-md" style="padding-top: 4em;">
                     <ul class="list-inline banner-social-buttons">
                          <li>
                              <a href="https://www.facebook.com/TEDxPXL" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>

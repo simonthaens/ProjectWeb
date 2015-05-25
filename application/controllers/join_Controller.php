@@ -22,7 +22,7 @@ public function __construct()
 
 
 
-        //run validation on form input
+        //run validation on form input.
         if ($this->form_validation->run() == FALSE)
         {
             $page = 'about';
