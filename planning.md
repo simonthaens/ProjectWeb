@@ -494,7 +494,7 @@ Geschatte tijdsduur: 3h
 
 Code "Ingeven drank" genereren
 
-#### Task 1
+#### Task 12
 Betrokken user story: Ingeven drank
 
 Verantwoordelijke: Nick Philippe
