@@ -51,12 +51,7 @@ public function __construct()
             $to_email = 'joshua.gielen@gmail.com';
 
             //configure email settings
-            $config = Array(
-                'protocol' => 'smtp',
-                'smtp_host' => 'ssl://smtp.googlemail.com',
-                'smtp_port' => 465,
-                'smpt_user' => 'joshua.gielen@gmail.com',
-                'smpt_pass' => 'AD7abyrf'
+            
             );
 
             //load library
